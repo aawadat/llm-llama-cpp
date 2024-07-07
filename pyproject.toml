@@ -2,8 +2,8 @@
 name = "llm-llama-cpp"
 version = "0.3"
 description = "LLM plugin for running models using llama.cpp"
-readme = "README.md"
-authors = [{name = "Simon Willison"}]
+readme = "tea.yaml"
+authors = [{name = "aawadat"}]
 license = {text = "Apache-2.0"}
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
@@ -14,10 +14,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/simonw/llm-llama-cpp"
-Changelog = "https://github.com/simonw/llm-llama-cpp/releases"
-Issues = "https://github.com/simonw/llm-llama-cpp/issues"
-CI = "https://github.com/simonw/llm-llama-cpp/actions"
+Homepage = "https://github.com/aawadat/llm-llama-cpp"
+Changelog = "https://github.com/aawadat/llm-llama-cpp/releases"
+Issues = "https://github.com/aawadat/llm-llama-cpp/issues"
+CI = "https://github.com/aawadat/llm-llama-cpp/actions"
 
 [project.entry-points.llm]
 llama_cpp = "llm_llama_cpp"
